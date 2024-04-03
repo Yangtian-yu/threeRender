@@ -7,6 +7,6 @@ const GLTF = () => {
       renderProgrem.init(canvasRef.current);
     }
   }, []);
-  return <div ref={canvasRef} style={{ height: '75vh', width: '75vw' }}></div>;
+  return <div ref={canvasRef} style={{ height: '100vh', width: '100vw' }}></div>;
 };
 export default GLTF;
